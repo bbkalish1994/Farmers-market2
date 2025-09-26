@@ -1,20 +1,3 @@
-/**
- * Farmers Marketplace - Single-file React frontend (preview-ready)
- * - Default export: FarmersMarketplaceApp
- * - Tailwind CSS styling assumed (you can also adapt classes to normal CSS)
- *
- * Features included (frontend-only, with mocked API layer):
- * - Login and Signup (localStorage mock auth)
- * - Farmer dashboard: browse products, ask specialist (chat stub), upload crop image for plant doctor, add to cart, checkout mock
- * - Merchant dashboard: add/edit products, mark promotions, view orders (mock)
- * - Simple role-based view switching (farmer / merchant)
- * - Mocked API layer (api.* functions) that uses localStorage to persist products, users, orders
- *
- * How to use:
- * - Create a Vite/CRA React project and add Tailwind (optional). Drop this file into src/ and import in index.js.
- * - This is designed to be a clear starting point to connect to real APIs later.
- */
-
 import React, { useEffect, useState } from "react";
 
 /* ----------------------------- Mock API Layer ---------------------------- */
